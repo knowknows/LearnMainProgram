@@ -1,3 +1,14 @@
 <!--pages/home/home.wxml-->
-<text class="title">pages/home/home.wxml</text>
-<button size="mini">阿牛</button>
+<!-- 1:小程序的数据绑定 
+  {{}}===》Mustache语法
+
+-->
+<!-- 数据显示 -->
+<view>Hellow {{name}}</view>
+<!-- 列表显示 -->
+<view wx:for="{{movie}}" wx:key="index">{{item}}</view>
+<view>counter:{{counter}}</view>
+<view>
+  <button size="mini" bindtap="add">+</button> 
+  <button size="mini" bindtap="nadd">-</button>
+</view>
