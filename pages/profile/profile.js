@@ -1,28 +1,19 @@
-// pages/home/home.js
-
-//getApp()获取APP() 产生的实列对象
-const app = getApp();
-const name = app.globalData.name;
-console.log(app.globalData.name);
-
-
-//注册一个页面
+// profile/profile.js
 Page({
 
   /**
    * 页面的初始数据
    */
-
   data: {
 
   },
-  handGetUserinfo(event) {
-    console.log(event);
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {},
+  onLoad: function (options) {
+
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -56,11 +47,9 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    console.log('onPullDownRefresh');
+
   },
-  onPageScroll:function(){
-    console.log('onPageScroll');
-  },
+
   /**
    * 页面上拉触底事件的处理函数
    */

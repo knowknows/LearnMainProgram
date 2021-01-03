@@ -1,3 +1,5 @@
 <!--pages/home/home.wxml-->
 <text class="title">pages/home/home.wxml</text>
 <button size="mini">阿牛</button>
+<button open-type="getUserInfo" bindgetuserinfo="handGetUserinfo" size="mini">获取授权</button>
+<open-data type="userAvatarUrl"></open-data>
