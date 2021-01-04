@@ -1,0 +1,21 @@
+/* pages/view/view.wxss */
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
+
+.hoverclass {
+  background-color: orange;
+  font-size: 20px;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  margin-top: 20px;
+}
+.hoverclassbox2{
+  background-color: green;
+}

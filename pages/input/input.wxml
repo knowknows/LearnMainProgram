@@ -1,0 +1,18 @@
+<!--pages/input/input.wxml-->
+<input type="text"/>
+<!-- 2:value值 -->
+<input type="text" value="哈哈"/>
+<!-- 3：type：决定键盘的类型 
+  idcard：身份证
+  number：数字
+  digit:带小数点
+  password:密码(暗文)
+-->
+<input type="idcard"/>
+<!-- 4：password暗文 -->
+<input type="password" value="暗纹"/>
+<!-- 5:placeholder：占位文字 -->
+<input placeholder="请输入类容"/>
+<!-- 6:绑定事件 -->
+<input bindblur="bindblur"/>
+<input bindinput="bindinput"/>

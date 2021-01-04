@@ -1,0 +1,15 @@
+<!--pages/text/text.wxml-->
+<!-- 1:基本使用 -->
+<text>hello world</text>
+
+<!-- 2:selecttable:true 默认情况下中text中的文本长按是不能被选中的 -->
+<text selectable="{{false}}"></text>
+
+<!-- 3:space决定文本的空格的大小 -->
+<text>hellow world\n</text>
+<text space="nbsp">hellow world\n</text>
+<text space="emsp">hellow world\n</text>
+<text space="ensp">hellow world\n</text>
+
+<!-- 4:decode属性：是否解码文本 -->
+<text decode>5 &gt; 3</text>

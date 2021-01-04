@@ -1,0 +1,18 @@
+<!--pages/image/image.wxml-->
+<!--1:image可以写单标签，也可以是双标签
+    2:image默认是有自己的大小的  320 x 240 
+    3:image是一个行内快元素(inline-block)
+-->
+<!-- 
+  <view>
+   <image></image>
+  </view> 
+-->
+
+<!-- 2:也可以显示远程的图片 -->
+<image mode="{{scaleToFill}}" src="/assets/a.jpg"></image>
+<image src="https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg"></image>
+
+<!-- 3:补充 想显示我们相册中的图片 -->
+<button bindtap="handlebindtap">选中图片</button>
+<image show-menu-by-longpress src="{{imagepaths}}"></image>

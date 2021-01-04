@@ -1,0 +1,6 @@
+<!--pages/scroll/scroll.wxml-->
+<!-- 1:水平滚动 -->
+<scroll-view class="container" scroll-x>
+  <view wx:for="{{10}}" class="item1">{{item}}</view>
+</scroll-view>
+<!-- 2：垂直滚动 -->

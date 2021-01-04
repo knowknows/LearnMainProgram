@@ -1,0 +1,11 @@
+<!--pages/button/button.wxml-->
+<!-- 1:button的基本使用 -->
+<button>按钮</button>
+
+<!-- 2：size属性：mini -->
+<button size="mini">按钮1</button>
+<button size="mini">按钮2</button>
+
+<!-- 3:type属性 -->
+<button size="mini" type="primary">按钮</button>
+<button size="mini" plain>1111</button>

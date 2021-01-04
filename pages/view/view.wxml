@@ -1,0 +1,10 @@
+<!--pages/view/view.wxml-->
+<!-- 1:view的基本使用 -->
+<view>哈哈</view>
+<!-- 2:hover-class:当用户按下取得时候显示的状态 -->
+<view class="box1" hover-class="hoverclass" hover-stay-time="{{2000}}">box1</view>
+
+<view>===========阻止冒泡================</view>
+<view class="box2" hover-class="hoverclassbox2">
+  <view class="box1" hover-class="hoverclass" hover-stop-propagation>box1</view>
+</view>
